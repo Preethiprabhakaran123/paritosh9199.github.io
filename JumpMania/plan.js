@@ -363,7 +363,8 @@ async function runGame(plans, Display) {
       level++;
     }
   }
-  alert("You've won!");
+  
+  document.body.innerHTML = "You won!";
 }
 
 runGame(GAME_LEVELS, DOMDisplay);
