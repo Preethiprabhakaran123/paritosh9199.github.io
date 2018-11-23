@@ -1,0 +1,86 @@
+.background {
+  background: rgb(2, 2, 2);
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {
+  padding: 0;
+}
+
+.lava {
+  background: rgb(230, 0, 0);
+}
+
+.wall {
+  background: rgb(77, 75, 231);
+}
+
+.actor {
+  position: absolute;
+}
+
+.coin {
+  background: rgb(253, 232, 1);
+}
+
+.player {
+  background: rgb(188, 189, 189);
+}
+
+.lost .player {
+  background: rgb(255, 0, 0);
+}
+
+.won .player {
+  /* box-shadow: -4px -7px 8px white, 4px -7px 8px white; */
+  background: rgb(0, 209, 0);
+}
+
+.game {
+  overflow: hidden;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+  max-width: 100%;
+  max-height: 300px !important;
+  height: 40% !important;
+  position: relative;
+}
+
+@media screen and (min-height: 600px) {
+  .game{
+    max-height: 100% !important;
+  }
+  #mv-btn{
+    display: none;
+  }
+}
+#mv-btn button {
+  /* background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit; */
+  all: unset;
+  border: 1px solid black;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  color: black;
+}
+
+#mv-btn button:hover {
+  border: 1px solid black;
+  background: rgb(111, 110, 114);
+  color: black;
+}
+#lbl{
+  font-family: monospace;
+  font-size: 15px;
+}
