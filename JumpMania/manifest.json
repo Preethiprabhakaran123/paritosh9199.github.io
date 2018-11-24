@@ -4,8 +4,8 @@
   "theme_color": "#3f3f3f",
   "background_color": "#000000",
   "display": "fullscreen",
-  "Scope": "/",
-  "start_url": "/",
+  "Scope": "/JumpMania",
+  "start_url": "/JumpMania",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
