@@ -1,8 +1,8 @@
 {
-  "name": "Paritosh's Portfolio",
-  "short_name": "Paritosh",
-  "theme_color": "#6d56c1",
-  "background_color": "#ffffff",
+  "name": "Jump Mania",
+  "short_name": "JumpMania",
+  "theme_color": "#3f3f3f",
+  "background_color": "#000000",
   "display": "fullscreen",
   "Scope": "/",
   "start_url": "/",
