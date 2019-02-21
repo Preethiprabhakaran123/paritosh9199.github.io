@@ -3,7 +3,7 @@
   "short_name": "Paritosh",
   "theme_color": "#6d56c1",
   "background_color": "#ffffff",
-  "display": "fullscreen",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
